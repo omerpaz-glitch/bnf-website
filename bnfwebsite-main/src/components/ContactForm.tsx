@@ -95,7 +95,6 @@ const ContactForm = () => {
               type="text"
               value={formData.organization}
               onChange={(e) => setFormData({ ...formData, organization: e.target.value })}
-              required
               className="bg-background/50 border-primary/20 focus:border-primary focus-visible:ring-0 focus-visible:ring-offset-0 transition-colors"
               placeholder="Your organization"
             />
@@ -125,7 +124,6 @@ const ContactForm = () => {
               type="tel"
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-              required
               className="bg-background/50 border-primary/20 focus:border-primary focus-visible:ring-0 focus-visible:ring-offset-0 transition-colors"
               placeholder="+1 (555) 000-0000"
             />

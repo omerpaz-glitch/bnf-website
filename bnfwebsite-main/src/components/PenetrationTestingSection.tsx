@@ -47,7 +47,7 @@ const PenetrationTestingSection = () => {
           viewport={{ amount: 0.3 }}
         >
           <p>
-            BNF Singapore delivers advanced penetration testing designed for operational technology environments — from industrial control systems (ICS) to SCADA networks and energy grids.
+            BNF Singapore delivers advanced penetration testing designed for operational technology environments - from industrial control systems (ICS) to SCADA networks and energy grids.
           </p>
 
           <motion.button
@@ -106,7 +106,7 @@ const PenetrationTestingSection = () => {
                   BNF Singapore has been awarded GVT(T)25001 Category 2 - Security Testing, authorizing work on Tier 1 CIIs and Sensitive Systems across Singapore.
                 </p>
                 <p>
-                  Our certified scope includes Vulnerability Assessment, Penetration Testing, Secure Configuration Review, Source Code Audit, Hardening, and full Red / Purple Teaming — executed to the highest operational and regulatory standards.
+                  Our certified scope includes Vulnerability Assessment, Penetration Testing, Secure Configuration Review, Source Code Audit, Hardening, and full Red / Purple Teaming - executed to the highest operational and regulatory standards.
                 </p>
               </motion.div>
             )}
