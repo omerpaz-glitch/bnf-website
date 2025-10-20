@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, type FormEvent} from "react";
 import emailjs from "@emailjs/browser";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -23,7 +23,7 @@ const ContactForm = () => {
 
   const [sending, setSending] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     // ולידציה בסיסית: רק שם ואימייל חובה (כפי שביקשת)
@@ -103,7 +103,6 @@ const ContactForm = () => {
             Whether you represent a government agency, enterprise, or research partner, our team is ready to collaborate.
           </p>
         </motion.div>
-
         <motion.form
           onSubmit={handleSubmit}
           className="space-y-4 bg-neutral-900/40 backdrop-blur-md p-6 rounded-2xl border border-neutral-700/50 shadow-lg"
