@@ -7,9 +7,9 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { toast } from "@/hooks/use-toast";
 
-const SERVICE_ID = "service_27rbz9r";     // ← שים כאן את ה-Service ID שלך
-const TEMPLATE_ID = "template_contact";    // ← שים כאן את ה-Template ID שלך
-const PUBLIC_KEY  = "YOUR_PUBLIC_KEY";     // ← שים כאן את ה-Public Key שלך
+const SERVICE_ID = "service_trndhzb";
+const TEMPLATE_ID = "template_r5hq58s";
+const PUBLIC_KEY  = "O_H0Kjep503x2xWuJ";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
